@@ -10,6 +10,7 @@ const LeftNav = () => {
             .then(data => setCategories(data))
             .catch(error => console.error(error))
     }, [])
+    
 
     return (
         <div>
